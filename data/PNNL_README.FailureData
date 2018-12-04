@@ -1,0 +1,41 @@
+As part of the SciDAC Petascale Data Storage Institute (PDSI) project 
+colaberation this is the failure data for the High Performance Computing 
+System-2 (MPP2) operated by the Environmental and Molecular Science Labratory 
+(EMSL), Molecular Science Computing Facility (MSCF).
+
+The MPP2 computing system has the following equipment and capabilities:
+
+    * HP/Linux Itanium-2
+    * 980 node/1960 Itanium-2 processors (Madison, 1.5 GHz) configured as 
+      follows:
+          o 574 nodes are "fat" compute nodes with 10 Gbyte RAM and 430 Gbyte 
+            local disk
+          o 366 nodes are "thin" compute nodes with 10 Gbyte RAM and 10 Gbyte 
+            local disk
+          o 34 nodes are Lustre server nodes (32 OSS, 2 MDS)
+          o 2 nodes are administrative nodes
+          o 4 nodes are login nodes
+    * Quadrics QsNetII interconnect
+    * 11.8 TFlops peak theoretical performance
+    * 9.7 terabytes of RAM
+    * 450 terabytes of local scratch disk space
+    * 53 terabytes shared cluster file system, Lustre
+
+== MPP2 Public Configuration Page ==
+http://mscf.emsl.pnl.gov/hardware/config_mpp2.shtml
+
+== SciDAC PDSI Home Page ==
+http://www.pdsi-scidac.org/
+
+== EMSL Home Page ==
+http://emsl.pnl.gov/
+
+This research was performed in part using the Molecular Science Computing 
+Facility (MSCF) in the William R. Wiley Environmental Molecular Sciences 
+Laboratory, a national scientific user facility sponsored by the U.S. 
+Department of Energy's Office of Biological and Environmental Research and 
+located at the Pacific Northwest National Laboratory, operated for the 
+Department of Energy by Battelle.
+
+ERICA NUMBER
+PNNL-SA-54359

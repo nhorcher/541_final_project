@@ -1,0 +1,41 @@
+
+For the FTA format, we used both raw data from PNNL:
+
+clean-output.csv: 2003-2007
+clean-output-updated: 2007-2008
+
+we merged two traces in the following file:
+clean-output-all.csv: 2003-2008
+
+we only used 'clean-output.csv' for parsing into FTA. 
+The following tips maybe helpful for parsing the merged trace data.
+
+-----------------------------------------------
+written by David Brown <david.brown@pnl.gov>:
+
+Yes, dtemp and Lustre Storage System are the same they were just put in differently by the Tech later in the life of the system.
+
+If you don't know what the ALL or PNNL-HSVTEST things are, probably best look at the description field for better idea of what happened. Those should 
+be few and far between so you probably could just strip them out.
+
+Yes some nodes were "fat" and some were "thin" I don't remember the numbers off the top of my head right now. Half were fat and half were thin. The 
+thin nodes only had three drives the fat ones had much more.
+-------------------------------------------------
+
+written by Evan Felix <evan.felix@pnl.gov>:
+
+Nodes were as follows:
+
+0-569 fat nodes – 2x 36G system disks, and 7x 72G /scratch disks in raid 5 setup
+570-939 thin nodes – 2x 36G system disks  (930-935 may have been fat nodes)
+940-973 – Lustre servers 940,957 are mds
+974-975 – thin admin nodes
+976-979 – thin login/test nodes
+
+ALL and unknow, I am not sure.  ALL may relate to a systemwide outage.  
+PNNL-HSVTEST was an EVA we used for the test cluster(a mini version of mpp2,8 nodes)
+-------------------------------------------------
+
+FTA team
+September 2009
+
