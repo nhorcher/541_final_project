@@ -1,4 +1,3 @@
-LANL Hardware/Systems/Software Failure Data LA-UR-05-7318  dates mid 1996 to mid 2005,,,,,,,,,,,,,,,,,,,,,,,,,
 System,machine type,nodes,procstot,procsinnode,nodenum,nodenumz,node install,node prod,node decom,fru type,mem,cputype,memtype,num intercon,purpose,Prob Started (mm/dd/yy hh:mm),Prob Fixed (mm/dd/yy hh:mm),Down Time,Facilities,Hardware,Human Error,Network,Undetermined,Software,Same Event
 2,cluster,49,6152,80,0,0,5-Apr,5-Jun,current,part,80,1,1,0,graphics.fe,6/21/2005 10:54,6/21/2005 11:00,6,,Graphics Accel Hdwr,,,,,No
 2,cluster,49,6152,80,0,0,5-Apr,5-Jun,current,part,80,1,1,0,graphics.fe,9/6/2005 9:13,9/6/2005 9:19,6,,,,,,Other Software,No
